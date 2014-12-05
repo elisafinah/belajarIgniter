@@ -1,0 +1,526 @@
+/* ---------------------  Form  --------------------- */
+
+/* Input Sizes */
+input.xsmall, textarea.xsmall  {
+	width: 30px;
+}
+
+input.small, textarea.small  {
+	width: 70px;
+}
+
+input.medium, textarea.medium  {
+	width: 110px;
+}
+
+input.xmedium, textarea.xmedium {
+	width: 150px;
+}
+
+input.long, textarea.long {
+	width: 230px;
+}
+
+input.xlong, textarea.xlong  {
+	width: 350px;
+}
+
+input.percent, textarea.percent  {
+	width: 100%;
+}
+
+/* Form Columns */
+
+form .column-left, form .column-right {
+	width: 48%;
+}
+
+form > .column-left {
+	border-right: 1px solid #E1E1E1;
+	padding-right: 2%;
+}
+
+form p {
+	clear: both;
+	color: #999;
+	line-height: 24px;
+	margin-bottom: 11px;
+	position: relative;
+	list-style-type: none;
+}
+
+form h2 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #DDD;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-bottom: 0px !important;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+fieldset {
+	padding-right: 10px;
+	padding-left: 10px;
+	position: relative;
+	border-bottom: 1px solid #DDD;
+	clear: both;
+}
+
+fieldset > label {
+	width: 100px;
+	position: relative;
+	float: left;
+	left: 0;
+	clear: left;
+	line-height: normal;
+	font-size: 13px;
+	font-weight: bold;
+	margin-right: 10px;
+	display: block;
+	color: #333;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #EEE;
+}
+
+fieldset > label > span {
+	display: block;
+	font-weight: normal;
+	font-size: 11px;
+	font-family: sans-serif;
+	color: #999;
+	margin-left: 0px;
+	margin-top: 3px;
+	margin-right: 0;
+	margin-bottom: 0px;
+}
+
+fieldset > div {
+	width: auto;
+	margin-left: 125px;
+	clear: right;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-left: 29px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #EEE;
+}
+
+fieldset > div  > input.text {
+	font-family: "Droid Sans", Arial, sans-serif;
+	height: 32px;
+	background-color: #FFF;
+	position: relative;
+	float: left;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	-moz-box-shadow:inset 0px 0px 7px 0px #E1E1E1;
+	-webkit-box-shadow:inset 0px 0px 7px 0px #E1E1E1;
+	box-shadow:inset 0px 0px 7px 0px #E1E1E1;
+	color: #1A527D;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	border: 1px solid #CCC;
+	font-size: 12px;
+}
+
+fieldset > div  > input.text:hover {
+	font-family: "Droid Sans", Arial, sans-serif;
+	height: 32px;
+	background-color: #FFF;
+	position: relative;
+	float: left;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	-moz-box-shadow: inset 0px 1px #DFDFDF;
+	-webkit-box-shadow: inset 0px 1px #DFDFDF;
+	box-shadow: inset 0px 1px #DFDFDF;
+	color: #1A527D;
+	border: 1px solid #1A527D;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+
+fieldset > div  > input.text:focus, fieldset > div  > input.text:focus:hover {
+	font-family: "Droid Sans", Arial, sans-serif;
+	height: 32px;
+	background-color: #FFF;
+	position: relative;
+	float: left;
+	-moz-box-shadow:inset 0px 0px 7px 0px #23608F;
+	-webkit-box-shadow:inset 0px 0px 7px 0px #23608F;
+	box-shadow:inset 0px 0px 7px 0px #23608F;
+	color: #1A527D;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	border: 1px solid #1A527D;
+}
+
+fieldset > div  > input.text.autocomplete:focus, fieldset > div  > input.text.autocomplet:focus:hover {
+	font-family: "Droid Sans", Arial, sans-serif;
+	height: 32px;
+	position: relative;
+	float: left;
+	background-color: #3375A8;
+	color: #FFF;
+	/* Safari 4-5, Chrome 1-9 */
+	background: url(../images/texture_5.png), -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3A81B7), to(#3375A8));
+	/* Safari 5.1, Chrome 10+ */
+	background: url(../images/texture_5.png), -webkit-linear-gradient(top, #3A81B7, #3375A8);
+	/* Firefox 3.6+ */
+	background: url(../images/texture_5.png), -moz-linear-gradient(top, #3A81B7, #3375A8);
+	/* IE 4+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A81B7, endColorstr=#3375A8); 
+	/* IE 10 */
+	background: url(../images/texture_5.png), -ms-linear-gradient(top, #3A81B7, #3375A8);
+	/* Opera 11.10+ */
+	background: url(../images/texture_5.png), -o-linear-gradient(top, #3A81B7, #3375A8);
+	-moz-box-shadow: inset 0px 1px #81B2D7;
+	-webkit-box-shadow: inset 0px 1px #81B2D7;
+	box-shadow: inset 0px 1px #81B2D7;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-bottom-width: 0px !important;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #1A527D;
+	border-right-color: #1A527D;
+	border-left-color: #1A527D;
+	border-bottom-color: #1A527D;
+	-moz-border-radius-bottomleft: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+fieldset > div  > textarea {
+	font-family: "Droid Sans", Arial, sans-serif;
+	background-color: #FFF;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	-moz-box-shadow:inset 0px 0px 7px 0px #E1E1E1;
+	-webkit-box-shadow:inset 0px 0px 7px 0px #E1E1E1;
+	box-shadow:inset 0px 0px 7px 0px #E1E1E1;
+	color: #1A527D;
+	border: 1px solid #CCC;
+	padding: 5px;
+	font-size: 12px;
+}
+
+fieldset > div  > textarea:hover {
+	font-family: "Droid Sans", Arial, sans-serif;
+	background-color: #FFF;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	-moz-box-shadow: inset 0px 1px #DFDFDF;
+	-webkit-box-shadow: inset 0px 1px #DFDFDF;
+	box-shadow: inset 0px 1px #DFDFDF;
+	color: #1A527D;
+	border: 1px solid #1A527D;
+}
+
+fieldset > div  > textarea:focus, fieldset > div  > textarea:focus:hover {
+	font-family: "Droid Sans", Arial, sans-serif;
+	background-color: #FFF;
+	-moz-box-shadow:inset 0px 0px 7px 0px #23608F;
+	-webkit-box-shadow:inset 0px 0px 7px 0px #23608F;
+	box-shadow:inset 0px 0px 7px 0px #23608F;
+	color: #1A527D;
+	border: 1px solid #1A527D;
+}
+
+form .column-left, form .column-right {
+	width: 48%;
+}
+
+fieldset > div > label:first-child {
+margin-top: -3px;
+}
+
+fieldset > div > label {
+display: block;
+line-height: 25px;
+}
+
+fieldset > div.inline > label {
+display: inline-block;
+float: left;
+line-height: 26px;
+margin-right: 10px;
+margin-top: 0px;
+}
+
+label.error {
+	background-color: #F96;
+	border: 1px solid #F63;
+	color: #C00;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	line-height: 18px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding;
+	-o-background-clip: padding-box;
+	-ms-background-clip: padding-box;
+	-khtml-background-clip: padding-box;
+	background-clip: padding-box;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-o-border-radius: 0;
+	-ms-border-radius: 0;
+	-khtml-border-radius: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	background-color: white;
+	border: 1px solid;
+	border-color: #848484 #c1c1c1 #e1e1e1;
+	color: black;
+	outline: 0;
+	text-align: left;
+	font-size: 12px;
+	font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+	*padding-top: 2px;
+	*padding-bottom: 1px;
+	*height: auto;
+}
+
+/* Search Form */
+
+form.search {
+	margin-left: 30px;
+	padding: 0px;
+	float: right;
+	-moz-box-shadow: 0px 1px #23608F;
+	-webkit-box-shadow: 0px 1px #23608F;
+	box-shadow: 0px 1px #23608F;
+	-webkit-border-bottom-left-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+form.search input{
+	font-family: "Droid Sans", Arial, sans-serif;
+	height: 32px;
+	background-color: #FFF;
+	position: relative;
+	float: left;
+	-moz-border-radius-topleft:4px;
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-top-left-radius:4px;
+	-webkit-border-bottom-left-radius:4px;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;
+	-moz-box-shadow: inset 0px 1px #DFDFDF;
+	-webkit-box-shadow: inset 0px 1px #DFDFDF;
+	box-shadow: inset 0px 1px #DFDFDF;
+	color: #BABEBE;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #1A527D;
+	border-bottom-color: #1A527D;
+	border-left-color: #1A527D;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+
+form.search input:focus{
+	font-family: "Droid Sans", Arial, sans-serif;
+	height: 32px;
+	background-color: #FFF;
+	position: relative;
+	float: left;
+	-moz-border-radius-topleft:4px;
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-top-left-radius:4px;
+	-webkit-border-bottom-left-radius:4px;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;
+	-moz-box-shadow:inset 0px 0px 10px #23608F;
+	-webkit-box-shadow:inset 0px 0px 10px #23608F;
+	box-shadow:inset 0px 0px 10px #23608F;
+	color: #1A527D !important;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #1A527D;
+	border-bottom-color: #1A527D;
+	border-left-color: #1A527D;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+
+form.search button{
+	height: 32px;
+	background-color: -o-linear-gradient;
+	position: relative;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#428BC2), to(#236496));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #428BC2, #236496);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #428BC2, #236496);
+	/* IE 4+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#428BC2, endColorstr=#236496); 
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #428BC2, #236496);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #428BC2, #236496);
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 0px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 0px;
+	border: 1px solid #1A527D;
+	margin: 0px !important;
+	-moz-box-shadow: inset 0px 1px #81B2D7;
+	-webkit-box-shadow: inset 0px 1px #81B2D7;
+	box-shadow: inset 0px 1px #81B2D7;
+	width: 36px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+form.search button:hover{
+	height: 32px;
+	background-color: #093;
+	position: relative;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3A81B7), to(#3375A8));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #3A81B7, #3375A8);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #3A81B7, #3375A8);
+	/* IE 4+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A81B7, endColorstr=#3375A8); 
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #3A81B7, #3375A8);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #3A81B7, #3375A8);
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 0px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 0px;
+	-moz-box-shadow: inset 0px 1px #81B2D7;
+	-webkit-box-shadow: inset 0px 1px #81B2D7;
+	box-shadow: inset 0px 1px #81B2D7;
+}
+
+form.search button:active{
+	height: 32px;
+	background-color: #093;
+	position: relative;
+	-moz-box-shadow:inset 1px 1px 10px #0C263A;
+	-webkit-box-shadow:inset 1px 1px 10px #0C263A;
+	box-shadow:inset 1px 1px 10px #0C263A;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1A527D), to(#428BC2));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #1A527D, #428BC2);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #1A527D, #428BC2);
+	/* IE 4+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1A527D, endColorstr=#428BC2); 
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #1A527D, #428BC2);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #1A527D, #428BC2);
+	color: #FFF;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 0px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 0px;
+}	
+	
+/* End of Top Notifications */
